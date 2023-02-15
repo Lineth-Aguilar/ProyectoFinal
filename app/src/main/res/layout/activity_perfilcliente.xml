@@ -25,10 +25,13 @@
         android:id="@+id/Apellido"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="5dp"
+        android:text="Ingrese apellido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="284dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
