@@ -7,11 +7,11 @@
     tools:context=".ActivityPerfilcliente">
 
     <EditText
-        android:id="@+id/Nombre"
+        android:id="@+id/editText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="196dp"
         android:layout_marginEnd="5dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -20,4 +20,15 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Apellido"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="284dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
